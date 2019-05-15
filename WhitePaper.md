@@ -155,5 +155,38 @@ Viat is the native cryptocurrency on the Sentivate Network. Viat has a hybrid bl
 Viat has a dynamic proof of work which can be mined two ways. Direct mining is the main method & the second method is through the use of packet puzzles in UDSP. Packet puzzles allow for passive mining of Viat while browsing the Universal Web. However, it’s not enabled by default. The situations which arise that enable packet puzzles are: upon connection handshake, connection liveliness check, DDoS protection, congestion control, and or the service chooses to enable it for their own reasons. It is up to the service to enable packet puzzles. This ensures that there is no need for constant mining in the background and gives real purpose to the mining process. Otherwise, it would be on all the time sucking up resources & eating into battery life.
  
 
-### INTEROPERABILITY 
+### TIED INTO THE UNIVERSAL WEB 
 Identity & Domain certificates also double as Viat wallet keys. This allows users to not only instantly sign into a service during connection handshake but also provide a way to purchase goods from services, tip sites, and or refund clients. Viat is an integral part of the full functionality of the Universal Web without it only part of the picture is there.
+
+### ENHANCED SMART CONTRACTS 
+Limits take into account the variability of computing power. Limits result in a more optimizable, faster, and efficacious network. The limitations ensure that contracts are pushed to nodes which are designed to handle them. Therefore, less complex contracts like simple transactions are pushed to smaller nodes & token creation are pushed to more powerful nodes. Limits provide the network with various different lanes for processing a whole variety of transactions. This removes the need for a lightening network or a fast lane for transactions. A node can be setup in such a way that it will only process smaller transactions and thus a smaller unit allocation is required. Making nodes more efficient and at the same time keeping the transaction fee low for day to day sending. It’s more capitalistic because the more powerful the node the greater the reward. All nodes are not equal but each has the same equal opportunity to perform the work. However, it would be highly illogical for a small node to compute a more complex contract when it could prioritize smaller contracts and gain much more Viat over a smaller amount of time. For larger nodes it would make more sense for them to process large requests as they offer greater reward.
+
+UNITS
+Units are the amount of energy put toward a smart contract, similar to Gas on the Ethereum network.. There must be a unit limit set on a contract and if the network can’t form a consensus within the allotted units the smart contract is marked as failed. After a contract is marked as failed the alloted units are lost to the nodes that performed the work. 
+
+BANDWIDTH LIMITS
+Contracts on the Sentivate network are more abstract and complex than traditional contracts and thus there must be limits on bandwidth. Nodes can also decline to process contracts that have a bandwidth limit set. If no bandwidth limit is set any attempts by the contract to utilize the network will mark it as failed.
+
+CPU LIMITS
+CPU limit must be set on a contract. Much like RAM limits this ensures that a node which doesn’t have the required resources to process the contract avoids the contract. 
+
+RAM LIMITS 
+RAM limits must be set on a contract. This aids the network in prioritizing contracts and greatly enhances the overall performance of the network. If a contract exceeds it’s RAM limit and the network agrees on this then the contract is marked as failed and the utilized units are forfeited. 
+
+STORAGE LIMITS
+A contract must have a max storage limit if a node accepts contracts that use the file system. Again, this allows nodes to prioritize the complexity of contracts. 
+
+TIME LIMITS
+A contract must have a time limit to ensure a contract doesn’t have code running too long. A node may want to only work on code that has a limit of a few seconds to quickly work on more contracts.
+
+UPDATABLE 
+An existing valid contract can be updated for a fee by the author. The network can compute and updated the state of an existing contract. The blockchain will also keep a history of the previous states and the current state must be signed by the previous state..
+
+DYNAMIC BLOCKCHAIN
+The network can remove certain types of contracts that are slowing down the network or are no longer required. 
+
+ISOLATED
+Contract code is executed in isolated environments with explicit limits and permissions. The network can also opt-in to only executing validated contracts which do not have immediate security concerns.
+
+DISTRIBUTED 
+Contract code is distributed over a set of operations rather than evaluating and running entire scripts.
